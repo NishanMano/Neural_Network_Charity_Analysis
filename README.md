@@ -6,30 +6,31 @@ We are helping a non-profit foundation that wants to bring the world together th
 
 ## Data: 
 We use the data provided from Alphabet Soup's team, which provides a CSV file containing more than 34,000 organizations worldwide that Alphabet Soup has provided donations for throughout numerous years. Within this dataset are a number of columns that capture metadata about each organization.
-
-### Data Preprocessing: 
-- Target Model = Application_Type
-- Features of the model incldues all columns minus IS_SUCCESFUL EIN and NAME—Identification columns
  
-  -APPLICATION_TYPE—Alphabet Soup application type
+- Target Model = IS_SUCCESSFUL
 
-  -AFFILIATION—Affiliated sector of industry
+- Features of the model incldues all columns minus IS_SUCCESFUL EIN and 
+ 
+  - APPLICATION_TYPE—Alphabet Soup application type
 
-  -CLASSIFICATION—Government organization classification
+  - AFFILIATION—Affiliated sector of industry
 
-  -USE_CASE—Use case for funding
+  - CLASSIFICATION—Government organization classification
 
-  -ORGANIZATION—Organization type
+  - USE_CASE—Use case for funding
 
-  -STATUS—Active status
+  - ORGANIZATION—Organization type
 
-  -INCOME_AMT—Income classification
+  - STATUS—Active status
 
-  -SPECIAL_CONSIDERATIONS—Special consideration for application
+  - INCOME_AMT—Income classification
 
-  -ASK_AMT—Funding amount requested
+  - SPECIAL_CONSIDERATIONS—Special consideration for application
 
-  -IS_SUCCESSFUL—Was the money used effectively
+  - ASK_AMT—Funding amount requested
+
+- Not Targets nor Features:
+  - EIN and NAME—Identification columns
 
 ## Data Cleaning: 
 We drop a few columns in order to make our vast data, more concise and provide better accurate results when we run our machine learning model. We use a density plot to determine the distribution of the column values. The reason behind this image below is that if we have too many unique columns it will make our data less accurate. We would lump these unique columns in order to enhance our analysis. We used an application type which combines all types which are below 200: 
@@ -55,5 +56,6 @@ We then created a neural network model, by choosing the number of input features
 
 ![6](
 
-Model Optimization: 
+Model Optimization/Compile: 
 Our target goal was to achieve a predictive accuarcy higher than 75% by using various methods to fine tune our model. 
+
