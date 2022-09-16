@@ -56,6 +56,18 @@ We then created a neural network model, by choosing the number of input features
 
 ![6](https://i.ibb.co/y8C6qj8/6.png)
 
-Model Optimization/Compile: 
+Model Optimization & Evaluation: 
 Our target goal was to achieve a predictive accuarcy higher than 75% by using various methods to fine tune our model. 
+
+Attempt #1: Adding One Additional Hidden Layer:
+![5](https://i.ibb.co/yS3KkZZ/Attempt1.png)
+
+Attempt #2: Adding Two Hidden Layers & Changing Activation Function: 
+![6](https://i.ibb.co/Qp3gBVr/Attempt2.png)
+
+Attempt #3: Adding Four Hidden Layers & Changing Activation Function: 
+![7](https://i.ibb.co/wz9CwYr/Attempt3.png)
+
+
+
 
