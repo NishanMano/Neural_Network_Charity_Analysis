@@ -5,11 +5,13 @@
 We are helping a non-profit foundation that wants to bring the world together through various means such as improving human's quality of life and assisting various environmental organizations. When we a company wishing to donate money to various platforms, we are bound to encounter a few bad apples (investments)! Therefore we will use our machine learning model to predict which organizations we should be donating towards and which organizations we should avoid. 
 
 ## Data: 
-We use the data provided from Alphabet Soup's team, which provides a CSV file containing more than 34,000 organizations worldwide that Alphabet Soup has provided donations for throughout numerous years. Within this dataset are a number of columns that capture metadata about each organization, such as the following:
+We use the data provided from Alphabet Soup's team, which provides a CSV file containing more than 34,000 organizations worldwide that Alphabet Soup has provided donations for throughout numerous years. Within this dataset are a number of columns that capture metadata about each organization.
 
-EIN and NAME—Identification columns
-APPLICATION_TYPE—Alphabet Soup application type
-AFFILIATION—Affiliated sector of industry
+### Data Preprocessing: 
+- Target Model = Application_Type
+- Features of the model incldues all columns minus IS_SUCCESFUL EIN and NAME—Identification columns
+  -APPLICATION_TYPE—Alphabet Soup application type
+  -AFFILIATION—Affiliated sector of industry
 CLASSIFICATION—Government organization classification
 USE_CASE—Use case for funding
 ORGANIZATION—Organization type
@@ -42,3 +44,6 @@ After we preprocessed our data, we had a total of 34,299 rows and 44 columns as 
 We then created a neural network model, by choosing the number of input features and nodes for each layer using Tensorflow Keras. We initially used 2 hidden layers and selected the relu actiovation function as well as the signmoid activation function. It is always best practice to check the structure of the model as shown in the image below: 
 
 ![6](
+
+Model Optimization: 
+Our target goal was to achieve a predictive accuarcy higher than 75% by using various methods to fine tune our model. 
