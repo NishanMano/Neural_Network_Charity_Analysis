@@ -69,5 +69,10 @@ Attempt #3: Adding Four Hidden Layers & Changing Activation Function:
 ![7](https://i.ibb.co/wz9CwYr/Attempt3.png)
 
 
+- I decided to add various levels of hidden layers, neurons and change activation function in order to attempt to receive a more accurate result. I believed that adding layers would provide a more accurate response. 
+
+- My accuracy remained at 72% and unforunately did not meet the target of 75%  
+
+- I believe we should reduce nosiy variables and then try adding hidden layers.
 
 
