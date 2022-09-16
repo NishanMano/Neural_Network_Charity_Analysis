@@ -39,9 +39,9 @@ We drop a few columns in order to make our vast data, more concise and provide b
 
 ![2](https://i.ibb.co/LYbk6LG/2.png)
 
-![3](
+![3](https://i.ibb.co/BG57S9Q/3.png)
 
-![4]( 
+![4](https://i.ibb.co/QXwc0LX/4.png)
 
 We finally scaled the data in order to remove any variability that may cause issues with our machine learning model.
 
@@ -49,12 +49,12 @@ We finally scaled the data in order to remove any variability that may cause iss
 
 After we preprocessed our data, we had a total of 34,299 rows and 44 columns as shown in the image below:
 
-![5](
+![5](https://i.ibb.co/tZWvSh2/5.png)
 
 
 We then created a neural network model, by choosing the number of input features and nodes for each layer using Tensorflow Keras. We initially used 2 hidden layers and selected the relu actiovation function as well as the signmoid activation function. It is always best practice to check the structure of the model as shown in the image below: 
 
-![6](
+![6](https://i.ibb.co/y8C6qj8/6.png)
 
 Model Optimization/Compile: 
 Our target goal was to achieve a predictive accuarcy higher than 75% by using various methods to fine tune our model. 
