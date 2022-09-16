@@ -10,16 +10,26 @@ We use the data provided from Alphabet Soup's team, which provides a CSV file co
 ### Data Preprocessing: 
 - Target Model = Application_Type
 - Features of the model incldues all columns minus IS_SUCCESFUL EIN and NAME—Identification columns
+ 
   -APPLICATION_TYPE—Alphabet Soup application type
+
   -AFFILIATION—Affiliated sector of industry
-CLASSIFICATION—Government organization classification
-USE_CASE—Use case for funding
-ORGANIZATION—Organization type
-STATUS—Active status
-INCOME_AMT—Income classification
-SPECIAL_CONSIDERATIONS—Special consideration for application
-ASK_AMT—Funding amount requested
-IS_SUCCESSFUL—Was the money used effectively
+
+  -CLASSIFICATION—Government organization classification
+
+  -USE_CASE—Use case for funding
+
+  -ORGANIZATION—Organization type
+
+  -STATUS—Active status
+
+  -INCOME_AMT—Income classification
+
+  -SPECIAL_CONSIDERATIONS—Special consideration for application
+
+  -ASK_AMT—Funding amount requested
+
+  -IS_SUCCESSFUL—Was the money used effectively
 
 ## Data Cleaning: 
 We drop a few columns in order to make our vast data, more concise and provide better accurate results when we run our machine learning model. We use a density plot to determine the distribution of the column values. The reason behind this image below is that if we have too many unique columns it will make our data less accurate. We would lump these unique columns in order to enhance our analysis. We used an application type which combines all types which are below 200: 
