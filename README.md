@@ -62,7 +62,7 @@ Our target goal was to achieve a predictive accuarcy higher than 75% by using va
 Initial Model Results: 
 ![abc](https://i.ibb.co/NNQt7GT/8.png)
 
-## Attempts to Improve Accuracy
+## Attempts to Improve Accuracy:
 
 Attempt #1: Adding One Additional Hidden Layer:
 ![5](https://i.ibb.co/yS3KkZZ/Attempt1.png)
