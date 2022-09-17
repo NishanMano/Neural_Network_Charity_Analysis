@@ -59,6 +59,11 @@ We then created a neural network model, by choosing the number of input features
 Model Optimization & Evaluation: 
 Our target goal was to achieve a predictive accuarcy higher than 75% by using various methods to fine tune our model. 
 
+Initial Model Results: 
+![abc](https://i.ibb.co/NNQt7GT/8.png)
+
+## Attempts to Improve Accuracy
+
 Attempt #1: Adding One Additional Hidden Layer:
 ![5](https://i.ibb.co/yS3KkZZ/Attempt1.png)
 
@@ -73,6 +78,6 @@ Attempt #3: Adding Four Hidden Layers & Changing Activation Function:
 
 - My accuracy remained at 72% and unforunately did not meet the target of 75%  
 
-- I believe we should reduce nosiy variables and then try adding hidden layers.
+- I believe we should reduce nosiy variables and then try adding hidden layers in order to attain better accuracy.
 
-
+I would recommend trying different ways to categorize the columns such as changing the classification number to a higher number than 200 such as 1000. I believe this would minimize the outliers and provide a very accurate result. 
